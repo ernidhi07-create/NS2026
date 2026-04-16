@@ -168,28 +168,35 @@ Managed 40+ active client accounts with ~₹10 Cr portfolio and successfully gen
 </section>
 <section>
 <section>
-  <marquee behavior="scroll" direction="left" scrollamount="5">
   <section class="hiring-banner">
-  <div class="scrolling-text">
-    <a href="https://forms.gle/5aKiq9aG2Br2WBQaA">
-      🚨 Urgent Hiring: Project Scheduler - Primavera | Oil & Gas — Click & Apply →
-    </a>
+  <div class="scroll-container">
+    <div class="scrolling-text">
+      <a href="https://forms.gle/5aKiq9aG2Br2WBQaA">
+        🚨 Urgent Hiring: Project Scheduler - Primavera | Oil & Gas — Click & Apply →
+      </a>
+    </div>
   </div>
 </section>
 
 <style>
 .hiring-banner {
-  background: linear-gradient(90deg, #7c3aed, #2563eb); /* Purple → Blue */
+  background: linear-gradient(90deg, #7c3aed, #2563eb);
   padding: 12px 0;
-  overflow: hidden;
   border-radius: 10px;
   margin: 20px 0;
 }
 
+/* This container hides overflow so nothing else moves */
+.scroll-container {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Only this element moves */
 .scrolling-text {
   display: inline-block;
   white-space: nowrap;
-  animation: scrollText 10s linear infinite; /* Increased speed */
+  animation: scrollText 10s linear infinite;
 }
 
 .scrolling-text a {
@@ -198,10 +205,11 @@ Managed 40+ active client accounts with ~₹10 Cr portfolio and successfully gen
   font-weight: 600;
   text-decoration: none;
   padding-left: 100%;
+  display: inline-block;
 }
 
 .scrolling-text a:hover {
-  color: #facc15; /* Yellow hover */
+  color: #facc15;
 }
 
 @keyframes scrollText {
