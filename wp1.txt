@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nidhi Sharma | Talent Strategy Leader</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    line-height: 1.5;
+    color: #1e293b;
+    background: #f8fafc;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    color: white;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 17px;
+    opacity: 0.9;
+    margin-top: 8px;
+}
+
+/* SECTION */
+section {
+    padding: 50px 20px;
+    max-width: 1050px;
+    margin: auto;
+}
+
+h2 {
+    color: #1e3a8a;
+    margin-bottom: 18px;
+    font-size: 24px;
+}
+
+h2::after {
+    content: "";
+    width: 45px;
+    height: 3px;
+    background: #3b82f6;
+    display: block;
+    margin-top: 6px;
+    border-radius: 10px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+}
+
+.grid-2x2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+/* CARD */
+.card, .comp-card {
+    background: white;
+    padding: 18px;
+    border-radius: 12px;
+    border-left: 3px solid #3b82f6;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: 0.25s;
+}
+
+.card:hover, .comp-card:hover {
+    transform: translateY(-4px);
+}
+
+/* TEXT */
+.intro-text {
+    font-size: 15px;
+    color: #475569;
+}
+
+.highlight-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1e3a8a;
+    margin-bottom: 6px;
+}
+
+.small-text {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 8px;
+}
+
+/* INDUSTRY */
+.industry-card {
+    color: #2563eb;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Nidhi Sharma</h1>
+    <p>Talent Strategy | Hiring Excellence | Business-Driven Recruitment</p>
+</header>
+
+<section>
+<p class="intro-text">
+With 15+ years of professional experience, including 8+ years in staffing and 5+ years in leadership roles, I have successfully managed P&L, driven revenue growth, and led hiring engagements with NSE/BSE-listed organizations and leading PSUs.  
+
+Managed 40+ active client accounts with ~₹10 Cr portfolio and successfully generated business worth ₹8+ Cr.
+</p>
+</section>
+
+<section>
+<h2>Services</h2>
+<p class="highlight-text">Recruitment</p>
+<p class="highlight-text">Career Coaching & Resume Building (Professionals & Students)</p>
+</section>
+
+<section>
+<h2>Core Competencies</h2>
+
+<div class="grid-2x2">
+<div class="comp-card"><h3>Talent Strategy</h3><p>Structured hiring aligned to business goals</p></div>
+<div class="comp-card"><h3>Leadership Hiring</h3><p>Mid to C-Suite hiring across functions</p></div>
+<div class="comp-card"><h3>Recruitment Operations</h3><p>High-volume & niche hiring models</p></div>
+<div class="comp-card"><h3>Business Alignment</h3><p>P&L-driven recruitment with impact</p></div>
+</div>
+
+</section>
+
+<section>
+<h2>Functional Strengths</h2>
+<div class="grid">
+<div class="card">End-to-End Talent Acquisition</div>
+<div class="card">GTM Strategy & Market Intelligence</div>
+<div class="card">HR Analytics (KPI / Budget Tracking)</div>
+<div class="card">Tendering / Bidding (RFQ)</div>
+</div>
+</section>
+
+<section>
+<h2>Industry Exposure</h2>
+<div class="grid">
+<div class="card industry-card">Oil & Gas</div>
+<div class="card industry-card">Energy & Power</div>
+<div class="card industry-card">Water (WTP / STP / ETP)</div>
+<div class="card industry-card">Information Technology</div>
+<div class="card industry-card">FMCG</div>
+<div class="card industry-card">Health Insurance</div>
+</div>
+</section>
+
+<section>
+<h2>Roles & Mandates</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Leadership Hiring</h3>
+<ul>
+<li>CHRO</li><li>CFO</li><li>Business Heads</li><li>Functional Leaders</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Engineering Hiring</h3>
+<ul>
+<li>Piping, Electrical, Mechanical</li>
+<li>Civil & Structural</li>
+<li>Instrumentation & Control</li>
+<li>Process & Proposal Engineers</li>
+</ul>
+
+<p class="small-text">
+PDMS | E3D | SP3D | AutoCAD | Tekla | STAAD | ETABS | Revit | CATIA | SolidWorks
+</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>IT & Sales Hiring</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>IT Roles</h3>
+<ul>
+<li>Developers (Frontend / Backend / Full Stack)</li>
+<li>Data Analysts</li>
+<li>QA / DevOps</li>
+<li>Project Managers</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Sales Roles</h3>
+<ul>
+<li>RSM / ASM</li>
+<li>Territory Managers</li>
+<li>Channel & Field Sales</li>
+<li>Category Managers</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Value Delivered</h2>
+<p>
+Building scalable hiring processes, strengthening talent pipelines, and enabling data-driven recruitment decisions.
+</p>
+</section>
+
+<section>
+<h2>Connect</h2>
+<p>Open to discussions on talent strategy & leadership hiring.</p>
+<p>📩 <strong>Email:</strong> <a href="mailto:nidhi.sharma@olibr.com">nidhi.sharma@olibr.com</a></p>
+</section>
+
+<footer>
+© 2026 Nidhi Sharma | Talent Strategy Leader
+</footer>
+
+</body>
+</html>
